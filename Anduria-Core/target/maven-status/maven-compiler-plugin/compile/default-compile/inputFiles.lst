@@ -1,0 +1,16 @@
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\AnduriaCore.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\AFKCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\DelHomeCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\FeedCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\FlySpeedCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\HealCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\HomesCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\commands\SetHomeCommand.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\gui\HomesGUI.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\listeners\GameModeListener.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\listeners\JoinLeaveListener.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\managers\AFKManager.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\managers\CooldownManager.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\managers\HomeManager.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\managers\MessageManager.java
+C:\Claude\Anduria-Core\src\main\java\cz\anduria\core\placeholders\AfkPlaceholder.java

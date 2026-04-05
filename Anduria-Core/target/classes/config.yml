@@ -1,0 +1,13 @@
+# =============================================
+# Anduria-Core - Hlavni konfigurace
+# =============================================
+
+# Cooldowny prikazu v sekundach
+cooldowns:
+  feed: 30
+  heal: 30
+
+# Rychlosti letu (hodnoty 0.0 - 1.0; vychozi Minecraft je 0.1)
+flyspeed:
+  level1: 0.1   # Normalni rychlost
+  level2: 0.4   # Rychla rychlost

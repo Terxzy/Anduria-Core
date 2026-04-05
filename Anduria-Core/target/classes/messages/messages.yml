@@ -1,0 +1,69 @@
+# =============================================
+# Anduria-Core - Zpravy
+# Podporuje & kody (barvy a formatovani)
+# Placeholdery: {player}, {time}, {name},
+#               {max}, {level}, {gamemode}
+# =============================================
+
+prefix: "&8[&aAnduria&8] "
+
+# ---- Obecne ----
+no-permission: "&8[&aAnduria&8] &cNemas opravneni k tomuto prikazu."
+cooldown: "&8[&aAnduria&8] &cMusis pockat &e{time}s&c."
+
+# ---- Join / Leave / Welcome ----
+join:
+  message: "&8[&a+&8] &7{player} &ase pripojil."
+
+leave:
+  message: "&8[&c-&8] &7{player} &codesel."
+
+welcome:
+  # Jmeno hrace, ktery dostane specialni uvitani
+  player: "Terx"
+  message: |
+    
+    &6&m                                        
+    &r
+    &6  Vitej zpatky, &e&l{player}&6!
+    &7  Tys nas oblibeny admin. &a<3
+    &r
+    &6&m                                        
+    &r
+
+# ---- Feed & Heal ----
+feed:
+  success: "&8[&aAnduria&8] &aByla ti naplnena zizniost! &2♥"
+
+heal:
+  success: "&8[&aAnduria&8] &aByl jsi vylecen na plny zivot! &2♥"
+
+# ---- FlySpeed ----
+flyspeed:
+  usage:         "&8[&aAnduria&8] &cPouziti: &7/flyspeed <1|2>"
+  invalid:       "&8[&aAnduria&8] &cZadej cislo 1 nebo 2."
+  invalid-level: "&8[&aAnduria&8] &cPlatne urovne jsou &71 &ca &72&c."
+  success:       "&8[&aAnduria&8] &aRychlost letu nastavena na uroven &e{level}&a."
+
+# ---- AFK ----
+afk:
+  now-afk:      "&8[&eAFK&8] &e{player} &7je nyni AFK."
+  no-longer-afk: "&8[&eAFK&8] &e{player} &7se vratil z AFK."
+
+# ---- Homes ----
+home:
+  set:          "&8[&aAnduria&8] &aHome &e{name} &anastaveno."
+  deleted:      "&8[&aAnduria&8] &aHome &e{name} &asmazano."
+  not-found:    "&8[&aAnduria&8] &cHome &e{name} &cneexistuje."
+  teleported:   "&8[&aAnduria&8] &aTeleportovan na home &e{name}&a."
+  max-reached:  "&8[&aAnduria&8] &cDosahl jsi max. poctu domu (&e{max}&c)."
+  delhome-usage: "&8[&aAnduria&8] &cPouziti: &7/delhome <nazev>"
+
+# ---- GameMode ----
+gamemode:
+  # Odeslat zpravu i na cely server?
+  broadcast: false
+  # Zprava pro hrace samotneho
+  change: "&8[&aAnduria&8] &7Herní mod zmenen na &a{gamemode}&7."
+  # Broadcast zprava (pokud broadcast: true)
+  broadcast-message: "&8[&aAnduria&8] &e{player} &7zmenil mod na &a{gamemode}&7."

@@ -1,0 +1,58 @@
+name: Anduria-Core
+version: '${project.version}'
+main: cz.anduria.core.AnduriaCore
+api-version: '1.21'
+authors: [ Terx ]
+description: Core plugin pro Anduria Minecraft network
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  feed:
+    description: Naplni hladovy bar
+    usage: /feed
+    permission: anduria.feed
+  heal:
+    description: Vyleci hrace na plny zivot
+    usage: /heal
+    permission: anduria.heal
+  flyspeed:
+    description: Nastavi rychlost letu (1 nebo 2)
+    usage: /flyspeed <1|2>
+    permission: anduria.flyspeed
+  afk:
+    description: Prepne AFK status
+    usage: /afk
+    permission: anduria.afk
+  homes:
+    description: Otevri GUI s homes
+    usage: /homes
+    permission: anduria.homes
+  sethome:
+    description: Nastav home
+    usage: /sethome [nazev]
+    permission: anduria.homes
+  delhome:
+    description: Smaz home
+    usage: /delhome <nazev>
+    permission: anduria.homes
+
+permissions:
+  anduria.feed:
+    description: Povoli /feed
+    default: op
+  anduria.heal:
+    description: Povoli /heal
+    default: op
+  anduria.flyspeed:
+    description: Povoli /flyspeed
+    default: op
+  anduria.afk:
+    description: Povoli /afk
+    default: true
+  anduria.homes:
+    description: Povoli /homes, /sethome, /delhome
+    default: true
+  anduria.vip:
+    description: Pristup k VIP slotum v homes GUI
+    default: false

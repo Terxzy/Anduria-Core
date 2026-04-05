@@ -1,0 +1,11 @@
+# =============================================
+# Anduria-Core - Homes GUI konfigurace
+# =============================================
+
+gui:
+  # Titulek inventory (podporuje & barvy)
+  title: "&8| &aHomes &8|"
+
+homes:
+  # Maximalni pocet homes na hrace (bez VIP slotu)
+  max-homes: 7

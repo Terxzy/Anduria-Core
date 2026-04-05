@@ -1,0 +1,17 @@
+cz\anduria\core\managers\HomeManager.class
+cz\anduria\core\AnduriaCore.class
+cz\anduria\core\commands\SetHomeCommand.class
+cz\anduria\core\listeners\GameModeListener.class
+cz\anduria\core\managers\AFKManager.class
+cz\anduria\core\commands\FeedCommand.class
+cz\anduria\core\placeholders\AfkPlaceholder.class
+cz\anduria\core\commands\HomesCommand.class
+cz\anduria\core\commands\DelHomeCommand.class
+cz\anduria\core\commands\FlySpeedCommand.class
+cz\anduria\core\listeners\GameModeListener$1.class
+cz\anduria\core\managers\MessageManager.class
+cz\anduria\core\listeners\JoinLeaveListener.class
+cz\anduria\core\commands\AFKCommand.class
+cz\anduria\core\managers\CooldownManager.class
+cz\anduria\core\commands\HealCommand.class
+cz\anduria\core\gui\HomesGUI.class
